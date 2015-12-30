@@ -36,26 +36,30 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
+   <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Moja strona</a>
+                <a class="navbar-brand" href="index.html">P.R.N.B</a>
             </div>
+
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="#">O mnie</a>
                     </li>
                     <li>
-                        <a href="#">Akcej charytatywne</a>
+                        <a href="#">Akcje charytatwyne</a>
+                    </li>
+                    <li>
+                        <a href="#">Galeria</a>
                     </li>
                     <li>
                         <a href="#">Kontakt</a>
@@ -64,7 +68,7 @@
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
+        <!-- /.container-fluid -->
     </nav>
 
     <!-- Page Content -->
@@ -163,17 +167,22 @@ dzieciaków oraz zwierzaków.</p>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- wow js -->
         <script src="js/wow.min.js"></script>
               <script>
               new WOW().init();
               </script>
+    <!-- 3d flipping image -->
     <script> 
         $('.flip').click(function(){
         $(this).find('.card').toggleClass('flipped');
 
     });
     </script>
-
+    <!-- custom js -->
+    <script src="js/creative.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
 </body>
 
 </html>
