@@ -45,8 +45,11 @@
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: rgba(8, 8, 8, 0);
-        background-color: rgb(255, 255, 255);
+    border-color: rgba(23, 17, 17, 0.26);
+    background-color: #fff;
+    border-radius: 0px 0px 0px 39px;
+    box-shadow: 15px 1px 6px #000;
+    
     }
 
     .navbar-default .navbar-header .navbar-brand {
@@ -65,7 +68,8 @@
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: rgb(0, 176, 227);
+        background-color: rgba(152, 150, 150, 0.22) ;
+        
     }
 
     .navbar-default.affix {
