@@ -1,5 +1,16 @@
+
+
+.menu-img{
+    background-image: url(images/menu2.png);
+    position: absolute;
+    z-index: 10;
+    right: 917px;
+    height: 50px;
+    width: 30%;
+    text-align: left;
+}
 .navbar-default {
-    border-color: rgba(34,34,34,.05);
+    border-color: rgba( s34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
     -webkit-transition: all .35s;
@@ -49,11 +60,17 @@
     background-color: #fff;
     border-radius: 0px 0px 0px 39px;
     box-shadow: 15px 1px 6px #000;
+        
     
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: rgb(255, 102, 0);
+    color: rgb(255, 102, 0);
+    text-align: right;
+    position: absolute;
+    right: 555px;
+    background: no-repeat;
+    width: 20%;    
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
