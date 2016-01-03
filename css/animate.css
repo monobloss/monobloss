@@ -466,7 +466,7 @@
   }
 }
 
-.tada {
+.tada:hover {
   -webkit-animation-name: tada;
   animation-name: tada;
 }
