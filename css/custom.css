@@ -170,7 +170,7 @@ position: relative;
 .flip .card .back {
   -webkit-transform: rotatey(-180deg);
     transform: rotatey(-180deg);
-    float: left;
+    
 }
 .inner{margin:0px !important;}
 
@@ -323,7 +323,7 @@ position: relative;
         font-size: 30px;
     }
     .navbar-default .navbar-header .navbar-brand {
-        right: 1069px;
+    width: 80%;
         
     }
 
