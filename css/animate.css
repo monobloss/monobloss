@@ -236,7 +236,7 @@
   }
 }
 
-.rubberBand {
+.rubberBand:hover {
   -webkit-animation-name: rubberBand;
   animation-name: rubberBand;
 }
@@ -469,6 +469,7 @@
 .tada:hover {
   -webkit-animation-name: tada;
   animation-name: tada;
+ -vendor-animation-iteration-count: infinite;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */

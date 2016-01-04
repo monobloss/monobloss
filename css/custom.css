@@ -170,6 +170,7 @@ position: relative;
 .flip .card .back {
   -webkit-transform: rotatey(-180deg);
     transform: rotatey(-180deg);
+    float: left;
 }
 .inner{margin:0px !important;}
 
