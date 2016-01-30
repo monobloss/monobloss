@@ -3118,27 +3118,27 @@ fieldset[disabled] .btn-default.focus {
   background-color: #333;
 }
 .btn-primary {
-  color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+    color: rgb(255, 255, 255);
+    background-color: #38AB47;
+    border-color: rgba(8, 8, 8, 0.32);
 }
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #286090;
-  border-color: #122b40;
+  background-color: #386900;
+  border-color: rgba(8, 8, 8, 0.32);
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+  background-color: #386900;
+  border-color: rgba(8, 8, 8, 0.32);
 }
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+  background-color: #FF0000;
+  border-color: rgba(8, 8, 8, 0.32);
 }
 .btn-primary:active:hover,
 .btn-primary.active:hover,
@@ -3150,8 +3150,8 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary.active.focus,
 .open > .dropdown-toggle.btn-primary.focus {
   color: #fff;
-  background-color: #204d74;
-  border-color: #122b40;
+  background-color: #FF0000;
+  border-color: rgba(8, 8, 8, 0.32);
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -4765,8 +4765,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   z-index: 3;
   color: #fff;
   cursor: default;
-  background-color: #337ab7;
-  border-color: #337ab7;
+  background-color: #38AB47;
+  border-color: #8CA630;
 }
 .pagination > .disabled > span,
 .pagination > .disabled > span:hover,
