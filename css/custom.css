@@ -1,5 +1,20 @@
-.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
-.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.yt {
+    background-image: url(images/yt.png);
+}
+.embed-container {
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
 .active{
   background-color: rgba(152, 150, 150, 0.22);
 }
@@ -230,7 +245,7 @@ position: relative;
     /*background-color: rgba(255, 102, 0, 0.73);
     padding: 10px 10px 25px 10px;*/
     padding: 50px 50px 50px 50px;
-    background-image: url("images/547922002fe2c_o.png");
+    background-image: url("images/bg.png");
 }
 .wrapper{
     background-color: #fff;
